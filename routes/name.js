@@ -1,6 +1,6 @@
 const express = require('express');
 
-const app = require('express').Router();
+const app = express.Router();
 
 // LESSON 1 - SEND NAME
 // app.get('/', (req, res) => {

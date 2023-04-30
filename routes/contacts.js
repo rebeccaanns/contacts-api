@@ -2,10 +2,10 @@ const express = require('express');
 
 const app = express.Router();
 
-const contactsController = require('../controllers/contacts');
+const controller = require('../controllers/contacts');
 
-app.get('/', contactsController.allContacts);
+app.get('/', controller.allContacts);
 
-app.get('/:id', contactsController.singleContact);
+app.get('/:Id', controller.singleContact);
 
 module.exports = app;
