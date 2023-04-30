@@ -1,0 +1,23 @@
+{
+    "contact1": {
+        "firstName": "Mason",
+        "lastName": "Jankiewicz",
+        "email": "masonjankiewicz@gmail.com",
+        "favoriteColor": "blue",
+        "birthday": "August 5, 2015"
+    },
+    "contact2": {
+        "firstName": "Remi",
+        "lastName": "Jankiewicz",
+        "email": "remijankiewicz@gmail.com",
+        "favoriteColor": "pink",
+        "birthday": "July 11, 2017"
+    },
+    "contact3": {
+        "firstName": "Darla",
+        "lastName": "Stucki",
+        "email": "kdstucki@msn.com",
+        "favoriteColor": "teal",
+        "birthday": "June 21, 1961"
+    }
+}
