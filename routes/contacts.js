@@ -6,6 +6,6 @@ const controller = require('../controllers/contacts');
 
 app.get('/', controller.allContacts);
 
-app.get('/:Id', controller.singleContact);
+app.get('/:id', controller.singleContact);
 
 module.exports = app;
