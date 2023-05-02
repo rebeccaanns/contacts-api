@@ -10,3 +10,15 @@ GET http://localhost:3000/contacts/644df34f83495acbe62b9029
 
 ###
 GET http://localhost:3000/contacts/644df35d83495acbe62b902b
+
+###
+GET https://cse341-lesson2-2iya.onrender.com/contacts
+
+###
+GET https://cse341-lesson2-2iya.onrender.com/contacts/644df33583495acbe62b9027
+
+###
+GET https://cse341-lesson2-2iya.onrender.com/contacts/644df34f83495acbe62b9029
+
+###
+GET https://cse341-lesson2-2iya.onrender.com/contacts/644df35d83495acbe62b902b
