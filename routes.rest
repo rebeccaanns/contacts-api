@@ -40,6 +40,18 @@ Content-Type: application/json
     "birthday": "February 26, 1989"
 }
 
+###
+POST https://cse341-lesson2-2iya.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Megan",
+    "lastName": "Jankiewicz",
+    "email": "megjankiewicz@hotmail.com",
+    "favoriteColor": "light pink",
+    "birthday": "February 26, 1989"
+}
+
 //Put/edit contact
 ###
 PUT http://localhost:3000/contacts/644df33583495acbe62b9027 HTTP/1.1
@@ -52,6 +64,21 @@ Content-Type: application/json
     "favoriteColor": "blue",
     "birthday": "August 5, 2015"
 }
+
+###
+PUT  https://cse341-lesson2-2iya.onrender.com/644df33583495acbe62b9027 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Mason",
+    "lastName": "Jankiewicz",
+    "email": "masonjankiewicz@gmail.com",
+    "favoriteColor": "blue",
+    "birthday": "August 5, 2015"
+}
 //delete contact
 ###
-DELETE http://localhost:3000/contacts/64570b78f704b829c9a58b2e HTTP/1.1
+DELETE http://localhost:3000/contacts/64570c5af704b829c9a58b2f HTTP/1.1
+
+###
+DELETE  https://cse341-lesson2-2iya.onrender.com/64570c5af704b829c9a58b2f HTTP/1.1
