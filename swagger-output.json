@@ -5,19 +5,14 @@
     "description": "Contacts API Lesson 4 for CSE341 at BYUI",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "https://cse341-lesson2-2iya.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "http",
-    "https"
-  ],
+  "schemes": ["http", "https"],
   "paths": {
     "/contacts/": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [],
         "responses": {
           "200": {
@@ -69,9 +64,7 @@
     "/contacts/{id}": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [
           {
             "name": "id",

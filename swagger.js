@@ -5,7 +5,7 @@ const doc = {
     title: 'Contacts API',
     description: 'Contacts API Lesson 4 for CSE341 at BYUI',
   },
-  host: 'localhost:3000',
+  host: 'https://cse341-lesson2-2iya.onrender.com',
   schemes: ['http', 'https'],
 };
 
