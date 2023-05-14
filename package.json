@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified!\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "swagger-autogen": "node ./swagger.js"
   },
   "author": "Becca Stucki",
   "license": "ISC",
@@ -18,9 +19,11 @@
     "mongodb": "^5.3.0",
     "node": "^19.8.1",
     "routes": "^2.1.0",
+    "swagger-ui-express": "^4.6.3",
     "typescript": "^5.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "swagger-autogen": "^2.23.1"
   }
 }

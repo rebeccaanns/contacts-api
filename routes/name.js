@@ -1,4 +1,5 @@
 const express = require('express');
+const contacts = require('./contacts');
 
 const app = express.Router();
 
@@ -7,6 +8,8 @@ const app = express.Router();
 //   res.send("Mason Jankiewicz");
 // });
 
-app.use('/contacts', require('./contacts'));
+app
+  .use('/contacts', require('./contacts'))
+  .use('/', require('./swagger'));
 
 module.exports = app;
